@@ -26,9 +26,15 @@ def main():
     df = pd.read_csv(args.alldata, sep="\t")
     col = {c.lower(): c for c in df.columns}
     id_col    = col.get("id") or list(df.columns)[0]
-    url_col   = col.get("url")
-    topic_col = col.get("topic") or col.get("topic_id") or col.get("topicid")
-    title_col = col.get("title") or col.get("name")
+    url_col   = col.get("url") or "URL"  # Try lowercase first, then uppercase
+    if url_col == "URL" and "URL" not in df.columns:
+        url_col = None
+    topic_col = col.get("topic") or col.get("topic_id") or col.get("topicid") or "Topic"
+    if topic_col == "Topic" and "Topic" not in df.columns:
+        topic_col = None
+    title_col = col.get("title") or col.get("name") or "Title"
+    if title_col == "Title" and "Title" not in df.columns:
+        title_col = None
 
     if url_col is None:
         raise ValueError("Couldn't find a URL column in alldata.tsv")
