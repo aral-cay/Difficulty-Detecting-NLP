@@ -1,0 +1,225 @@
+================================================================================
+MISCLASSIFICATION ANALYSIS
+================================================================================
+
+Model: models/tfidf_logreg_3level_max
+Test Set: data/processed/lecture_depth3_test.csv
+Total Misclassifications: 900
+Total Samples: 4527
+Accuracy: 80.12%
+
+
+================================================================================
+Level 1 (Beginner) → Predicted as Level 2 (Intermediate)
+================================================================================
+Count: 282
+
+Average Text Features:
+  Word Count: 395.8
+  Advanced Terms: 0.68
+  Technical Terms: 1.29
+  Average Word Length: 5.17
+  Starts with 'What': 0.00
+  Starts with 'How': 0.00
+
+Explanation: These Beginner texts were misclassified as Intermediate. Likely reasons: They contain intermediate-level terminology or concepts, or have complexity features (word count, technical terms) that push them toward Intermediate.
+
+Example Misclassifications (showing top 3):
+--------------------------------------------------------------------------------
+
+Example 1:
+  Text: – P(Heads) = 2/3 ? • Make 1 coin flips, observe 1 Tail – P(Heads) = 0 ?? • Make 0 coin flips – P(Heads) = ?? • We have some “prior” belief about P(Heads) before we see any data • After seeing some dat...
+  Confidence: 0.987
+  Probability Distribution: [Level 1: 0.007, Level 2: 0.987, Level 3: 0.006]
+
+Example 2:
+  Text: NLP NLP Resources NLP External Links http://nlp.stanford.edu/software/ http://web.stanford.edu/class/cs224u/ http://web.stanford.edu/class/cs224d/ NLP
+  Confidence: 0.987
+  Probability Distribution: [Level 1: 0.007, Level 2: 0.987, Level 3: 0.006]
+
+Example 3:
+  Text: Likelihood, prior and posterior for the Dirichlet/multinomial 43 Likelihood P(Y|q) = K ’ k=1 q mk k Prior P(q|a) µ K ’ k=1 q ak−1 k Posterior P(q|Y,a) µ K ’ k=1 q mk+ak−1 k Bayesian Methods in NLP MLE...
+  Confidence: 0.982
+  Probability Distribution: [Level 1: 0.016, Level 2: 0.982, Level 3: 0.002]
+
+
+================================================================================
+Level 1 (Beginner) → Predicted as Level 3 (Advanced)
+================================================================================
+Count: 176
+
+Average Text Features:
+  Word Count: 407.4
+  Advanced Terms: 1.14
+  Technical Terms: 1.18
+  Average Word Length: 4.80
+  Starts with 'What': 0.00
+  Starts with 'How': 0.00
+
+Explanation: These Beginner texts were misclassified as Advanced. Likely reasons: They mention advanced concepts or use technical terminology that the model associates with Advanced level, even if the explanation is basic.
+
+Example Misclassifications (showing top 3):
+--------------------------------------------------------------------------------
+
+Example 1:
+  Text: a b D C E b a D E C a b D E C b E a C D (i) (ii)
+  Confidence: 0.968
+  Probability Distribution: [Level 1: 0.017, Level 2: 0.016, Level 3: 0.968]
+
+Example 2:
+  Text: TTIC 31230, Fundamentals of Deep Learning David McAllester, Winter 2018 Variational Autoencoders 1 The Latent Variable Cross-Entropy Objective We will now drop the negation and switch to argmax Φ∗= ar...
+  Confidence: 0.938
+  Probability Distribution: [Level 1: 0.051, Level 2: 0.012, Level 3: 0.938]
+
+Example 3:
+  Text: logarithm of data likelihood: m X j=1 log P(yj, xj) = m X j=1 " log P(yj) + n X i=1 log P(xji|yj) # ith feature of jth example Maximum Likelihood for Naive Bayes P(great|+) = 1 2 P(great|−) = P(+) = 1...
+  Confidence: 0.915
+  Probability Distribution: [Level 1: 0.075, Level 2: 0.010, Level 3: 0.915]
+
+
+================================================================================
+Level 2 (Intermediate) → Predicted as Level 1 (Beginner)
+================================================================================
+Count: 92
+
+Average Text Features:
+  Word Count: 597.4
+  Advanced Terms: 0.80
+  Technical Terms: 1.53
+  Average Word Length: 4.91
+  Starts with 'What': 0.00
+  Starts with 'How': 0.01
+
+Explanation: These Intermediate texts were misclassified as Beginner. Likely reasons: They use simpler language or basic terminology, or lack the complexity indicators the model expects for Intermediate content.
+
+Example Misclassifications (showing top 3):
+--------------------------------------------------------------------------------
+
+Example 1:
+  Text: folding structure CS6501 Lecture 2 7 Why we need machine learning v There is no (or limited numbers of) human expert for some problems v Humans can perform a task, but can’t describe how they do it v ...
+  Confidence: 0.967
+  Probability Distribution: [Level 1: 0.967, Level 2: 0.016, Level 3: 0.016]
+
+Example 2:
+  Text: Quality = merges two words that have similar probabilities of preceding and following words • Clustering proceeds until all words are in one big cluster 21 Brown Clusters as vectors • By tracing the o...
+  Confidence: 0.953
+  Probability Distribution: [Level 1: 0.953, Level 2: 0.029, Level 3: 0.017]
+
+Example 3:
+  Text: distribution: CS6501 Lecture 2 65 CS6501 Lecture 2 66 How to make prediction Predict y=1 if P(y=1|x,w ) > p (y= -1|x, w) Decision boundary v The decision boundary CS6501 Lecture 2 67 Alternative view ...
+  Confidence: 0.946
+  Probability Distribution: [Level 1: 0.946, Level 2: 0.052, Level 3: 0.002]
+
+
+================================================================================
+Level 2 (Intermediate) → Predicted as Level 3 (Advanced)
+================================================================================
+Count: 26
+
+Average Text Features:
+  Word Count: 410.1
+  Advanced Terms: 1.12
+  Technical Terms: 1.50
+  Average Word Length: 4.90
+  Starts with 'What': 0.00
+  Starts with 'How': 0.00
+
+Explanation: These Intermediate texts were misclassified as Advanced. Likely reasons: They contain advanced terminology or concepts that push them toward Advanced, even if the overall complexity is intermediate.
+
+Example Misclassifications (showing top 3):
+--------------------------------------------------------------------------------
+
+Example 1:
+  Text: The problem addressed by LSI can be viewed as an extension of the kind of problem addressed by factor analysis: The goal of factor analysis is to explain the variance of a number of observed variables...
+  Confidence: 0.865
+  Probability Distribution: [Level 1: 0.092, Level 2: 0.043, Level 3: 0.865]
+
+Example 2:
+  Text: Directed edges represent qualitative (sometimes causal) dependencies • Quantitatively, we specify a local conditional distribution for each variable conditioned on its parents, and multiply them toget...
+  Confidence: 0.851
+  Probability Distribution: [Level 1: 0.054, Level 2: 0.095, Level 3: 0.851]
+
+Example 3:
+  Text: B must be true That’s nice, but how do we compute Could just enumerate worlds … A |= B Logical Inference Take a KB, and produce new sentences of knowledge Most frequently, determine whether Inference ...
+  Confidence: 0.830
+  Probability Distribution: [Level 1: 0.097, Level 2: 0.073, Level 3: 0.830]
+
+
+================================================================================
+Level 3 (Advanced) → Predicted as Level 1 (Beginner)
+================================================================================
+Count: 218
+
+Average Text Features:
+  Word Count: 422.2
+  Advanced Terms: 1.23
+  Technical Terms: 1.46
+  Average Word Length: 5.02
+  Starts with 'What': 0.00
+  Starts with 'How': 0.00
+
+Explanation: These Advanced texts were misclassified as Beginner. Likely reasons: They use simpler language structure or basic terminology despite covering advanced topics, or the model focuses on surface-level features.
+
+Example Misclassifications (showing top 3):
+--------------------------------------------------------------------------------
+
+Example 1:
+  Text: losses – compuEng feature expectaEons when minimizing log loss (requires summing over outputs) • when output space is exponenEally-­‐large (e.g., in structured predicEon), we need to be clever about h...
+  Confidence: 0.967
+  Probability Distribution: [Level 1: 0.967, Level 2: 0.011, Level 3: 0.022]
+
+Example 2:
+  Text: encoding approach Concurrent Work on Weibo Concurrent Work on Weibo Seq2Seq ‘backbone’ ● Encode the input sequence to fixed-size vector w/ one RNN ● Decode the vector to the target sequence w/ another...
+  Confidence: 0.961
+  Probability Distribution: [Level 1: 0.961, Level 2: 0.020, Level 3: 0.020]
+
+Example 3:
+  Text: we formally deﬁne the class function) For instance, the (hypothetical) output ˆy = hθ(x(i)) =   0.1 −0.2 2.0 5.0 0.1 −1.0 −5.0 1.0 0.4 0.2   (2) would correspond to a p...
+  Confidence: 0.958
+  Probability Distribution: [Level 1: 0.958, Level 2: 0.021, Level 3: 0.021]
+
+
+================================================================================
+Level 3 (Advanced) → Predicted as Level 2 (Intermediate)
+================================================================================
+Count: 106
+
+Average Text Features:
+  Word Count: 389.3
+  Advanced Terms: 0.90
+  Technical Terms: 1.42
+  Average Word Length: 4.88
+  Starts with 'What': 0.00
+  Starts with 'How': 0.00
+
+Explanation: These Advanced texts were misclassified as Intermediate. Likely reasons: They lack the extreme complexity indicators (very long text, many advanced terms) that the model uses to identify Advanced content.
+
+Example Misclassifications (showing top 3):
+--------------------------------------------------------------------------------
+
+Example 1:
+  Text: CS11-711 Advanced NLP Learning From/For Knowledge Bases Graham Neubig Site https://phontron.com/class/anlp2021/ Some slides by Zhengbao Jiang Knowledge Bases • Structured databases of knowledge usuall...
+  Confidence: 0.967
+  Probability Distribution: [Level 1: 0.020, Level 2: 0.967, Level 3: 0.013]
+
+Example 2:
+  Text: + Recall) Evaluating Constituency Parsing Gold standard brackets: S-(0:11), NP-(0:2), VP-(2:9), VP-(3:9), NP-(4:6), PP- (6-9), NP-(7,9), NP-(9:10) Candidate brackets: S-(0:11), NP-(0:2), VP-(2:10), VP...
+  Confidence: 0.962
+  Probability Distribution: [Level 1: 0.036, Level 2: 0.962, Level 3: 0.002]
+
+Example 3:
+  Text: CS6740/IS 6300, Lecture 25: Semantic Representations; intro to AMR 1 So far, we’ve seen first-order-logic-style representations of semantics a) “cashiers put candy in boxes” →𝑝𝑢𝑡′(𝑐𝑎𝑠ℎ𝑖𝑒𝑟𝑠., 𝑐𝑎𝑛𝑑𝑦., 𝑖...
+  Confidence: 0.945
+  Probability Distribution: [Level 1: 0.036, Level 2: 0.945, Level 3: 0.019]
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+Level 1 (Beginner) → Predicted as Level 2 (Intermediate): 282 cases, avg confidence: 0.702
+Level 1 (Beginner) → Predicted as Level 3 (Advanced): 176 cases, avg confidence: 0.616
+Level 2 (Intermediate) → Predicted as Level 1 (Beginner): 92 cases, avg confidence: 0.665
+Level 2 (Intermediate) → Predicted as Level 3 (Advanced): 26 cases, avg confidence: 0.620
+Level 3 (Advanced) → Predicted as Level 1 (Beginner): 218 cases, avg confidence: 0.668
+Level 3 (Advanced) → Predicted as Level 2 (Intermediate): 106 cases, avg confidence: 0.660

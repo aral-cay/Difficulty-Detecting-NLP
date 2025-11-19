@@ -1,0 +1,399 @@
+Explain the difference between classification and regression.
+
+Why do we split data into train and test sets?
+
+How does scaling affect distance-based models?
+
+What problem does overfitting cause?
+
+What does regularization try to reduce?
+
+Why is cross-validation useful?
+
+How does k-NN make predictions?
+
+Describe when logistic regression is appropriate.
+
+What role does a loss function play?
+
+How does gradient descent update weights?
+
+Why is shuffling data before training helpful?
+
+How does k-means assign clusters?
+
+What is the purpose of a centroid?
+
+Why is PCA used?
+
+How does a decision tree choose a split?
+
+Why do random forests reduce variance?
+
+What is the main advantage of boosting?
+
+How does dropout help neural networks?
+
+Why do we need activation functions?
+
+What does ReLU help avoid?
+
+How does softmax convert scores to probabilities?
+
+Why do deeper networks learn more complex patterns?
+
+How is early stopping triggered?
+
+What makes SVM effective in high-dimensional spaces?
+
+Why do we tune hyperparameters?
+
+How does batch size affect training?
+
+Why use mini-batches instead of a full dataset?
+
+What is the intuition behind L2 regularization?
+
+How does L1 regularization encourage sparsity?
+
+Why is feature engineering important?
+
+How does one-hot encoding represent categories?
+
+Why can correlated features hurt models?
+
+How does standardization differ from normalization?
+
+Why do neural networks need non-linear functions?
+
+What does the learning rate control?
+
+What happens if the learning rate is too high?
+
+What happens if the learning rate is too low?
+
+How does batch normalization stabilize training?
+
+Why are GPUs useful for deep learning?
+
+How is model performance evaluated?
+
+Why is accuracy misleading on imbalanced data?
+
+How does precision differ from recall?
+
+Why is the F1-score useful?
+
+How does a confusion matrix summarize predictions?
+
+Why do we use MAE or MSE in regression?
+
+How does regularization reduce model complexity?
+
+Why do we remove outliers sometimes?
+
+What is the purpose of a validation set?
+
+How does data augmentation improve generalization?
+
+Why do CNNs work well on images?
+
+How do convolution filters detect patterns?
+
+Why do CNNs use pooling layers?
+
+What problem do RNNs solve?
+
+How does an LSTM manage long sequences?
+
+What is the benefit of GRUs over LSTMs?
+
+Why is teacher forcing used in training RNNs?
+
+What benefits come from transfer learning?
+
+How does fine-tuning differ from feature extraction?
+
+Why do transformers use attention?
+
+How does self-attention work conceptually?
+
+What makes attention parallelizable?
+
+Why is tokenization critical in NLP?
+
+How does TF-IDF highlight important words?
+
+Why are word embeddings better than one-hot vectors?
+
+What is the benefit of pretrained embeddings?
+
+How do GANs learn distributions?
+
+What role does a discriminator play in GANs?
+
+Why are GANs sometimes unstable?
+
+How do autoencoders compress data?
+
+Why use anomaly detection with autoencoders?
+
+How does reinforcement learning differ from supervised learning?
+
+What is the purpose of a reward function in RL?
+
+How does an RL agent explore?
+
+Why is exploration important in RL?
+
+Why is sparse reward a challenge?
+
+How does Q-learning estimate action values?
+
+Why is the discount factor important?
+
+Why might two models with similar accuracy behave differently?
+
+Why is interpretability important in ML?
+
+What makes linear models interpretable?
+
+Why is model explainability necessary in healthcare?
+
+How does feature importance help interpret models?
+
+Why is SHAP useful for explanations?
+
+Why is fairness important in ML predictions?
+
+How does data imbalance cause bias?
+
+Why is data cleaning critical?
+
+What issues arise with missing data?
+
+How does imputation fix missing data?
+
+Why is scaling necessary for gradient-based methods?
+
+How does initialization affect neural networks?
+
+Why do deeper models require careful initialization?
+
+How is a learning rate schedule helpful?
+
+Why use warm restarts?
+
+Why do ensemble models often outperform single models?
+
+What makes bagging reduce variance?
+
+What makes boosting reduce bias?
+
+Why do tree models handle mixed data well?
+
+How does XGBoost regularize trees?
+
+Why is LightGBM faster than XGBoost?
+
+How does CatBoost handle categorical variables?
+
+What makes linear regression susceptible to outliers?
+
+Why is logistic regression suitable for binary tasks?
+
+How does regularization fix overfitting in logistic regression?
+
+Why do SVMs use kernels?
+
+How does the RBF kernel measure similarity?
+
+Why does grid search test multiple combinations?
+
+Why is random search often faster?
+
+How does Bayesian optimization tune hyperparameters?
+
+Why is model reproducibility important?
+
+Why do we fix random seeds?
+
+How does data leakage affect performance?
+
+Why is leakage dangerous in real deployments?
+
+Why do models fail on distribution shifts?
+
+How does domain adaptation help?
+
+Why is feature scaling important for k-NN?
+
+Why is feature scaling less critical for trees?
+
+Why is EDA important before modeling?
+
+What insights do pair plots provide?
+
+How do box plots reveal outliers?
+
+Why do we inspect correlation matrices?
+
+Why is variance important for PCA?
+
+How does PCA reduce noise?
+
+Why does PCA assume linearity?
+
+Why is t-SNE used for visualization?
+
+Why can t-SNE distort global structure?
+
+Why is UMAP preferred for large datasets?
+
+Why is batch size a trade-off?
+
+Why use dropout only during training?
+
+Why do CNNs rely on weight sharing?
+
+Why does attention capture long-range dependencies?
+
+Why are transformers better than RNNs for long sequences?
+
+Why is gradient clipping important?
+
+Why do exploding gradients occur?
+
+Why do vanishing gradients occur?
+
+Why does LayerNorm stabilize transformers?
+
+Why are positional encodings needed?
+
+Why do sequence models need masking?
+
+Why is BLEU used in translation tasks?
+
+Why is ROUGE used in summarization?
+
+Why use cosine similarity for embeddings?
+
+Why do recommender systems use matrix factorization?
+
+Why is cold-start a problem in recommendations?
+
+Why do collaborative filters need user overlap?
+
+Why do content-based systems avoid cold-start?
+
+Why are hybrid recommenders effective?
+
+Why is ranking harder than classification?
+
+Why use AUC for ranking tasks?
+
+Why is CTR prediction challenging?
+
+Why are time-series models sensitive to seasonality?
+
+Why does differencing help with stationarity?
+
+Why is scaling important in time series forecasting?
+
+Why do LSTMs capture temporal dependencies?
+
+Why can CNNs be used for time series?
+
+Why are residual connections helpful in deep networks?
+
+Why does dropout act as model averaging?
+
+Why does weight decay reduce overfitting?
+
+Why is gradient noise sometimes beneficial?
+
+Why do adaptive optimizers converge quickly?
+
+Why do some tasks prefer SGD over Adam?
+
+Why is feature drift harmful in production?
+
+Why do we monitor model predictions over time?
+
+Why is retraining necessary?
+
+Why do online learning models update continuously?
+
+Why is latency important in deployment?
+
+Why is model compression useful?
+
+Why does quantization reduce model size?
+
+Why does pruning remove redundant weights?
+
+Why do we use ONNX for portability?
+
+Why is A/B testing important for deployment?
+
+Why do we track model versions?
+
+Why do we log inference data?
+
+Why do we test models on edge cases?
+
+Why do fairness audits matter?
+
+Why do privacy issues arise in ML?
+
+Why is differential privacy used?
+
+Why is federated learning used?
+
+Why is secure aggregation important?
+
+Why is interpretability difficult for deep models?
+
+Why do model cards help transparency?
+
+Why does bias occur in training data?
+
+Why do feedback loops worsen bias?
+
+Why do small datasets limit model performance?
+
+Why do large datasets sometimes cause slow training?
+
+Why do models require hyperparameter tuning?
+
+Why do ensembles reduce risk?
+
+Why is feature correlation a problem for linear models?
+
+Why does ridge regression handle multicollinearity?
+
+Why does Lasso produce sparse weights?
+
+Why does ElasticNet combine L1 and L2?
+
+Why are unsupervised methods harder to evaluate?
+
+Why is silhouette score useful for clustering?
+
+Why does k-means struggle with non-spherical clusters?
+
+Why is DBSCAN good for noise handling?
+
+Why do hierarchical clusters show tree structure?
+
+Why is model capacity important?
+
+Why do overly deep trees overfit?
+
+Why does pruning help simplify trees?
+
+Why does feature importance vary across models?
+
+Why are learning curves useful?
+
+Why do we compare multiple models before choosing?

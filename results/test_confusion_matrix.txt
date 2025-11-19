@@ -1,0 +1,46 @@
+================================================================================
+TEST SET CONFUSION MATRIX RESULTS
+================================================================================
+
+Model: models/tfidf_logreg_3level_max
+Test Set: data/processed/lecture_depth3_test.csv
+Test Samples: 4527
+
+Overall Accuracy: 0.8012 (80.12%)
+
+Per-Class Metrics:
+--------------------------------------------------------------------------------
+Class                Precision    Recall       F1-Score     Support   
+--------------------------------------------------------------------------------
+Level 1 (Beginner)   0.8522       0.7961       0.8232       2246      
+Level 2 (Intermediate) 0.5297       0.7874       0.6333       555       
+Level 3 (Advanced)   0.8741       0.8123       0.8420       1726      
+--------------------------------------------------------------------------------
+Macro Avg            0.7520       0.7986       0.7662       4527      
+Weighted Avg         0.8210       0.8012       0.8071       4527      
+
+Confusion Matrix (Counts):
+--------------------------------------------------------------------------------
+              Pred Level 1  Pred Level 2  Pred Level 3
+True Level 1          1788           282           176
+True Level 2            92           437            26
+True Level 3           218           106          1402
+
+Confusion Matrix (Percentages):
+--------------------------------------------------------------------------------
+              Pred Level 1  Pred Level 2  Pred Level 3
+True Level 1         79.61         12.56          7.84
+True Level 2         16.58         78.74          4.68
+True Level 3         12.63          6.14         81.23
+
+Detailed Classification Report:
+--------------------------------------------------------------------------------
+                        precision    recall  f1-score   support
+
+    Level 1 (Beginner)       0.85      0.80      0.82      2246
+Level 2 (Intermediate)       0.53      0.79      0.63       555
+    Level 3 (Advanced)       0.87      0.81      0.84      1726
+
+              accuracy                           0.80      4527
+             macro avg       0.75      0.80      0.77      4527
+          weighted avg       0.82      0.80      0.81      4527

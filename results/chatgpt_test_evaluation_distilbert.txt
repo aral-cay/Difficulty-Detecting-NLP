@@ -1,0 +1,49 @@
+================================================================================
+CHATGPT TEST EVALUATION RESULTS - DISTILBERT
+================================================================================
+
+Model: models/distilbert_depth3_fast/best
+Overall Accuracy: 0.4859 (48.59%)
+
+Per-Class Metrics:
+--------------------------------------------------------------------------------
+Class           Precision    Recall       F1-Score     Support   
+--------------------------------------------------------------------------------
+Level 1 (Easy)  0.4829       0.6350       0.5486       200       
+Level 2 (Medium) 0.3333       0.0150       0.0287       200       
+Level 3 (Hard)  0.4924       0.8060       0.6113       201       
+--------------------------------------------------------------------------------
+Macro Avg       0.4362       0.4853       0.3962       601       
+Weighted Avg    0.4363       0.4859       0.3966       601       
+
+Confusion Matrix:
+--------------------------------------------------------------------------------
+              Pred Level 1  Pred Level 2  Pred Level 3
+True Level 1           127             6            67
+True Level 2            97             3           100
+True Level 3            39             0           162
+
+Confusion Matrix (Percentages):
+--------------------------------------------------------------------------------
+              Pred Level 1  Pred Level 2  Pred Level 3
+True Level 1          63.5           3.0          33.5
+True Level 2          48.5           1.5          50.0
+True Level 3          19.4           0.0          80.6
+
+Per-Category Accuracy:
+--------------------------------------------------------------------------------
+Easy (Level 1):   0.6350 (63.50%)
+Medium (Level 2): 0.0150 (1.50%)
+Hard (Level 3):   0.8060 (80.60%)
+
+Detailed Classification Report:
+--------------------------------------------------------------------------------
+                  precision    recall  f1-score   support
+
+  Level 1 (Easy)       0.48      0.64      0.55       200
+Level 2 (Medium)       0.33      0.01      0.03       200
+  Level 3 (Hard)       0.49      0.81      0.61       201
+
+        accuracy                           0.49       601
+       macro avg       0.44      0.49      0.40       601
+    weighted avg       0.44      0.49      0.40       601

@@ -1,0 +1,399 @@
+What does ML stand for?
+
+Does ML use data?
+
+What is a model?
+
+Is a label an answer?
+
+Are features inputs?
+
+Is classification about choosing categories?
+
+Is regression about predicting numbers?
+
+Does training improve a model?
+
+Is test data unseen data?
+
+Does more data help?
+
+Can ML find patterns?
+
+Is supervised learning labeled?
+
+Is unsupervised learning unlabeled?
+
+Does clustering group data?
+
+Is k-means a clustering method?
+
+Is accuracy a metric?
+
+Does overfitting mean memorizing?
+
+Does underfitting mean learning too little?
+
+Is a dataset a collection of examples?
+
+Are weights learned values?
+
+Is a prediction a model output?
+
+Does scaling resize data?
+
+Is normalization a type of scaling?
+
+Can ML classify images?
+
+Can ML classify text?
+
+Is k-NN a simple algorithm?
+
+Are neural networks inspired by the brain?
+
+Is a neuron a small unit in a model?
+
+Is deep learning a type of ML?
+
+Is a layer a group of neurons?
+
+Is ReLU an activation function?
+
+Is softmax used for probabilities?
+
+Is sigmoid used for binary output?
+
+Does ML need training data?
+
+Are labels needed for supervised learning?
+
+Is PCA a dimensionality reduction method?
+
+Does ML help with spam detection?
+
+Is a tree-based model made of splits?
+
+Is a leaf node a final decision?
+
+Does a random forest use many trees?
+
+Is boosting a way to combine models?
+
+Is gradient descent an optimizer?
+
+Does a loss measure model error?
+
+Does a lower loss mean a better model?
+
+Is a batch a small part of data?
+
+Is an epoch one full pass through data?
+
+Does validation data tune the model?
+
+Can ML detect fraud?
+
+Can ML predict house prices?
+
+Can ML recommend movies?
+
+Is cleaning data important?
+
+Are missing values a problem?
+
+Can ML work with numbers?
+
+Can ML work with text?
+
+Can ML work with images?
+
+Is k the number of neighbors in k-NN?
+
+Is k the number of clusters in k-means?
+
+Is standardization mean=0, std=1?
+
+Does one-hot encoding create binary columns?
+
+Is a confusion matrix a 4-cell table?
+
+Are true positives correct predictions?
+
+Are false positives mistakes?
+
+Are false negatives mistakes?
+
+Is precision a fraction of correct positives?
+
+Is recall sensitivity?
+
+Is F1 a balance of precision and recall?
+
+Is linear regression a straight-line model?
+
+Can logistic regression classify?
+
+Does SVM use margins?
+
+Is a kernel a similarity measure?
+
+Is a decision boundary a dividing line?
+
+Is cross-validation splitting data many times?
+
+Do hyperparameters need tuning?
+
+Is learning rate a hyperparameter?
+
+Can a high learning rate cause instability?
+
+Can a low learning rate slow learning?
+
+Does dropout turn off neurons randomly?
+
+Can early stopping prevent overfitting?
+
+Is overfitting bad for test accuracy?
+
+Is bias an error?
+
+Is variance sensitivity to data changes?
+
+Is the bias–variance tradeoff important?
+
+Is a simple model low capacity?
+
+Is a complex model high capacity?
+
+Is model evaluation necessary?
+
+Is a pipeline a sequence of steps?
+
+Does feature engineering improve performance?
+
+Can ML detect anomalies?
+
+Can ML cluster customers?
+
+Is data visualization helpful?
+
+Can ML recognize handwriting?
+
+Can ML translate languages?
+
+Is NLP text processing?
+
+Is tokenization splitting text?
+
+Is TF-IDF a text feature method?
+
+Is Word2Vec an embedding?
+
+Are embeddings dense vectors?
+
+Is self-attention used in transformers?
+
+Are transformers NLP models?
+
+Can ML drive cars?
+
+Is transfer learning reusing models?
+
+Is fine-tuning adjusting a pre-trained model?
+
+Does training take time?
+
+Do GPUs speed up training?
+
+Is data quality important?
+
+Can noisy data hurt accuracy?
+
+Is labeling expensive?
+
+Can ML be used in medicine?
+
+Can ML classify diseases?
+
+Can ML detect cancer in images?
+
+Is feature selection choosing important features?
+
+Is feature extraction creating new features?
+
+Is correlation a relationship measure?
+
+Can features be correlated?
+
+Is multicollinearity harmful?
+
+Is regularization used to reduce overfitting?
+
+Is L1 regularization for sparsity?
+
+Is L2 regularization for smoothing?
+
+Is batch normalization stabilizing?
+
+Is data augmentation creating new samples?
+
+Can ML recognize speech?
+
+Is speech recognition ML-based?
+
+Can ML detect faces?
+
+Can ML track objects?
+
+Is image classification an ML task?
+
+Is object detection more complex?
+
+Is YOLO an object detection model?
+
+Are CNNs good for images?
+
+Are RNNs good for sequences?
+
+Is an LSTM a type of RNN?
+
+Is a GRU similar to an LSTM?
+
+Does reinforcement learning use rewards?
+
+Is Q-learning part of RL?
+
+Is an agent the learner in RL?
+
+Is the environment where it acts?
+
+Are actions choices?
+
+Are rewards scores?
+
+Is policy a strategy?
+
+Can RL play games?
+
+Can RL beat humans?
+
+Can ML forecast sales?
+
+Can ML predict weather?
+
+Can ML estimate demand?
+
+Does more training generally help?
+
+Can ML reduce errors over time?
+
+Does ML require computing power?
+
+Is cloud computing used for ML?
+
+Is data collection important?
+
+Can ML automate tasks?
+
+Can ML save time?
+
+Can ML spot fake reviews?
+
+Can ML detect credit card fraud?
+
+Can ML group customers?
+
+Can ML predict churn?
+
+Does ML power recommendation engines?
+
+Can ML rank results?
+
+Can ML detect bots?
+
+Can ML read handwriting?
+
+Can ML help robots?
+
+Can ML identify emotions in text?
+
+Can ML detect sarcasm?
+
+Is data splitting simple?
+
+Is random shuffle useful?
+
+Is stratified sampling important?
+
+Is data imbalance a problem?
+
+Can ML handle big datasets?
+
+Can ML run on small datasets?
+
+Can ML detect spam emails?
+
+Does ML use math?
+
+Does ML use statistics?
+
+Does ML use probability?
+
+Can ML improve apps?
+
+Can ML power chatbots?
+
+Can ML help self-checkout?
+
+Can ML personalize ads?
+
+Can ML optimize routes?
+
+Can ML help factories?
+
+Can ML help doctors?
+
+Can ML help teachers?
+
+Can ML predict sports outcomes?
+
+Can ML classify animals?
+
+Can ML classify plants?
+
+Can ML classify sounds?
+
+Can ML detect anomalies in sensors?
+
+Can ML summarize text?
+
+Can ML create images?
+
+Can ML generate text?
+
+Can ML learn patterns on its own?
+
+Can ML improve with feedback?
+
+Does ML often need tuning?
+
+Can ML handle real-time data?
+
+Can ML learn from mistakes?
+
+Can ML help with security?
+
+Can ML monitor systems?
+
+Can ML reduce manual work?
+
+Does ML keep evolving?
+
+Is ML used everywhere today?
+
+Can ML be fun to learn?
+
+Can ML be used by beginners?
+
+Can ML solve real problems?

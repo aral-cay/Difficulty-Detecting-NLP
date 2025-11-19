@@ -1,0 +1,401 @@
+Prove why convex loss functions guarantee global optima in gradient descent.
+
+Explain the role of the representer theorem in kernel methods.
+
+Derive the dual form of the SVM optimization problem.
+
+Why is logistic regression a maximum entropy classifier?
+
+Show how the bias–variance tradeoff arises mathematically.
+
+Prove that k-means converges in finite steps.
+
+Analyze why k-means objective is NP-hard globally.
+
+Derive the closed-form solution for linear regression.
+
+Explain the conditions for identifiability in mixture models.
+
+Why does L1 regularization induce sparsity mathematically?
+
+Show how L2 regularization corresponds to Gaussian priors.
+
+Prove universal approximation for neural networks.
+
+Why is learning parity with noise computationally hard?
+
+Provide a rigorous proof that gradient descent converges under Lipschitz continuity.
+
+Show how PCA emerges from maximizing variance.
+
+Derive PCA using Lagrange multipliers.
+
+Explain the connection between eigenvalues and explained variance.
+
+Why is maximum likelihood equivalent to minimizing KL divergence?
+
+Derive the EM updates for Gaussian mixture models.
+
+Analyze the stability of gradient descent under different step sizes.
+
+Prove that AdaBoost minimizes an exponential loss.
+
+Show why boosting can overfit in low-noise settings.
+
+Explain why the no-free-lunch theorem holds for ML.
+
+Derive the Fisher information matrix and explain its role.
+
+Show how natural gradients differ from vanilla gradients.
+
+Analyze how saddle points affect deep network training.
+
+Explain why second-order methods rarely scale to deep networks.
+
+Derive backpropagation using Jacobians.
+
+Show the connection between residual networks and ODEs.
+
+Derive the gradients of batch normalization.
+
+Analyze why layer normalization is more stable for transformers.
+
+Explain why vanishing gradients occur in deep RNNs.
+
+Derive the LSTM gating equations from optimization constraints.
+
+Compare convergence conditions for SGD, Adam, and RMSProp.
+
+Explain why Adam may fail to converge in some settings.
+
+Derive the update rules of AdamW.
+
+Explain why dropout approximates model averaging.
+
+Prove that weight decay differs from L2 regularization for adaptive optimizers.
+
+Analyze the spectral bias of neural networks.
+
+Explain how lottery ticket subnetworks are identified.
+
+Derive the gradients for attention mechanisms.
+
+Explain how gradient clipping stabilizes sequence training.
+
+Analyze gradient noise scale during training.
+
+Show how curriculum learning affects optimization landscapes.
+
+Explain implicit bias of gradient descent.
+
+Analyze sharp vs flat minima in generalization.
+
+Derive the Hessian for deep networks and explain problems that arise.
+
+Explain why wide neural networks behave like Gaussian processes.
+
+Derive the NTK (Neural Tangent Kernel).
+
+Explain why NTK predicts training dynamics of infinitely wide nets.
+
+Explain why transformers scale better than RNNs.
+
+Derive multi-head attention mathematically.
+
+Explain the role of positional encodings in strict detail.
+
+Why do transformers exhibit quadratic complexity?
+
+Derive the cross-attention mechanism for encoder–decoder models.
+
+Compare autoregressive vs bidirectional transformer objectives.
+
+Explain why pre-layer norm transformers are more stable.
+
+Show how Vision Transformers approximate CNN inductive biases.
+
+Analyze why convolution kernels learn translation invariance.
+
+Derive gradient flow through residual blocks.
+
+Explain how depthwise separable convolutions reduce computation.
+
+Analyze why U-Nets perform well for segmentation.
+
+Explain how self-supervised learning objectives generate representations.
+
+Compare contrastive learning to predictive learning.
+
+Explain why masked language modeling works.
+
+Derive the InfoNCE loss.
+
+Explain collapse prevention in contrastive representation learning.
+
+Analyze how CLIP aligns modalities.
+
+Explain the challenges of scaling long-context transformers.
+
+Analyze memory complexity of attention and alternatives.
+
+Explain how Mixture-of-Experts improve scaling efficiency.
+
+Derive routing gradients in MoE models.
+
+Analyze the expressivity of deep vs shallow architectures.
+
+Prove that ReLU networks are piecewise linear.
+
+Derive the Jacobian of a deep ReLU network.
+
+Derive variational inference for a latent variable model.
+
+Show how ELBO relates to KL divergence.
+
+Explain how normalizing flows transform probability densities.
+
+Derive the Jacobian determinant for invertible flows.
+
+Compare MAP estimation to MLE using priors.
+
+Explain conjugate priors for Gaussian families.
+
+Derive Gibbs sampling for a simple mixture model.
+
+Show how HMC improves exploration over random-walk MCMC.
+
+Derive the VAE loss from first principles.
+
+Explain why posterior collapse occurs in VAEs.
+
+Derive the reparameterization trick.
+
+Compare Laplace approximation to variational inference.
+
+Explain how Bayesian neural networks compute predictive uncertainty.
+
+Derive the predictive distribution for Gaussian processes.
+
+Explain kernel hyperparameter optimization for GPs.
+
+Derive the likelihood of a hidden Markov model.
+
+Explain the forward–backward algorithm.
+
+Derive Kalman filter update equations.
+
+Compare particle filters to Kalman filters.
+
+Explain how score-based generative models learn gradients of log density.
+
+Derive diffusion model forward and reverse processes.
+
+Explain how denoising score matching works.
+
+Derive the Stein variational gradient descent algorithm.
+
+Analyze the identifiability of mixture distributions.
+
+Explain the curse of dimensionality for density estimation.
+
+Derive the Bellman optimality equation.
+
+Explain why Q-learning converges under certain assumptions.
+
+Derive policy gradients from the likelihood ratio trick.
+
+Explain variance reduction using advantage functions.
+
+Derive A2C actor–critic updates.
+
+Explain PPO clipping and derive the objective.
+
+Analyze why PPO stabilizes policy updates.
+
+Compare on-policy vs off-policy learning.
+
+Show how importance sampling corrects for policy mismatch.
+
+Derive the TD(λ) update.
+
+Explain eligibility traces in RL.
+
+Show why function approximation can destabilize Q-learning.
+
+Explain the deadly triad in RL.
+
+Derive the DQN loss and target network update.
+
+Explain how prioritized replay improves learning.
+
+Compare value-based and policy-based methods.
+
+Explain entropy regularization in RL.
+
+Derive soft actor–critic from maximum entropy RL.
+
+Explain how exploration–exploitation tradeoff affects regret.
+
+Compare multi-armed bandit algorithms.
+
+Explain UCB and derive confidence intervals.
+
+Derive Thompson sampling for a Bernoulli arm.
+
+Explain model-based vs model-free RL.
+
+Analyze the sample complexity of RL algorithms.
+
+Explain partial observability and derive belief updates.
+
+126–150: Advanced Topics in Generalization
+
+Explain why VC dimension controls model capacity.
+
+Derive generalization bounds using VC theory.
+
+Compare PAC learning to agnostic learning.
+
+Prove that linear separators in d dimensions have VC-dim = d+1.
+
+Explain Rademacher complexity and derive a bound.
+
+Compare structural risk minimization to empirical risk minimization.
+
+Explain algorithmic stability and generalization.
+
+Analyze double descent in deep learning.
+
+Explain how overparameterized networks still generalize.
+
+Describe implicit regularization of SGD.
+
+Analyze mode connectivity in neural loss landscapes.
+
+Why do wide networks generalize differently from narrow networks?
+
+Explain benign overfitting.
+
+Derive margin-based generalization bounds.
+
+Explain generalization in self-supervised learning.
+
+Compare invariances vs equivariances in learned representations.
+
+Explain why data augmentation acts as regularization.
+
+Derive spectral norm bounds on generalization.
+
+Explain why mixup improves robustness.
+
+Derive the VAT (virtual adversarial training) objective.
+
+Explain adversarial examples via linearity of networks.
+
+Derive the FGSM attack.
+
+Explain projected gradient descent adversarial training.
+
+Analyze robustness–accuracy tradeoffs.
+
+Why do adversarial examples transfer across models?
+
+Explain gradient synchronization in distributed training.
+
+Derive memory complexity for model parallelism.
+
+Compare pipeline vs tensor parallelism.
+
+Explain ZeRO optimizer sharding.
+
+Derive communication costs for data-parallel training.
+
+Explain challenges of training trillion-parameter models.
+
+Why does batch size scaling break learning rate heuristics?
+
+Derive the linear scaling rule for large batches.
+
+Explain gradient accumulation mathematics.
+
+Compare asynchronous vs synchronous SGD.
+
+Explain stale gradients in distributed systems.
+
+Why does checkpointing require careful state management?
+
+Derive formula for activation checkpointing memory savings.
+
+Explain quantization-aware training.
+
+Compare post-training quantization to QAT.
+
+Describe error accumulation in low-precision training.
+
+Explain pruning criteria using Taylor expansion.
+
+Derive Fisher pruning from first principles.
+
+Analyze trade-offs of sparsity in hardware.
+
+Explain why KV cache optimizes transformer inference.
+
+Describe block sparse attention mathematically.
+
+Derive attention complexity for different sparsity patterns.
+
+Explain retrieval-augmented generation mathematically.
+
+Analyze embedding drift in large models.
+
+Explain the compute–data scaling laws for deep learning.
+
+Explain domain shift mathematically.
+
+Analyze covariate shift vs label shift.
+
+Derive importance weighting for covariate shift.
+
+Explain concept drift in streaming ML.
+
+Derive methods for detecting drift using KS tests.
+
+Explain why data leakage breaks evaluation.
+
+Compare offline and online evaluation metrics.
+
+Explain calibration and derive Brier score.
+
+Derive isotonic regression for calibration.
+
+Compare Platt scaling and temperature scaling.
+
+Explain why ranking metrics differ from accuracy.
+
+Derive NDCG from first principles.
+
+Explain class imbalance using decision threshold theory.
+
+Derive optimal thresholds for imbalanced datasets.
+
+Compare fairness definitions (EO, DP, calibration).
+
+Explain trade-offs between fairness criteria.
+
+Derive counterfactual fairness tests.
+
+Explain privacy–utility tradeoff in ML.
+
+Derive DP-SGD noise injection.
+
+Explain how membership inference attacks work.
+
+Derive metrics for data poisoning detection.
+
+Analyze robustness of federated learning.
+
+Explain secure aggregation mathematically.
+
+Derive influence functions for model debugging.
+
+Explain how Shapley values quantify feature contributions.
